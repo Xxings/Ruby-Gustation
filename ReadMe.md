@@ -1,6 +1,6 @@
 # Ruby on Rails 맛보기
 
-### 환경설정
+## 환경설정
 
 - ruby 2.7.1 (200808 기준 stable)
 - rbenv - ruby 버전관리
@@ -13,7 +13,7 @@
   - Rails Run space = space 자동
 - VSCODE RUBY
 
-### 빠른 언어학습
+## 빠른 언어학습
 
 - [루비 20분 가이드](https://www.ruby-lang.org/ko/documentation/quickstart/)
 
@@ -25,16 +25,18 @@
 
   [DevDocs](https://devdocs.io/rails~5.0/)
 
-## ## 세팅
+## 세팅
 
 brew install rbenv ruby-build
 
-````
+```bash
 rbenv install 2.7.1
 rbenv global 2.7.1
 rbenv rehash
 # ruby -v 로 확인
 gem install bundler
+```
+
 [reference](https://www.ruby-lang.org/ko/documentation/quickstart/)
 
 [Java To Ruby](https://www.ruby-lang.org/ko/documentation/ruby-from-other-languages/to-ruby-from-java/)
@@ -43,7 +45,6 @@ gem install bundler
 ## 강추
 
 > 언어 익숙해지기 - BOJ 알고리즘 양치기보다 구름IDE가 더 괜찮아보인다.
->
 > 파이썬에서 쓰는 대부분 그대로 쓸수있어서, 헷갈리는 부분만 잡고 Rails로 넘어감.
 
 [한 눈에 끝내는 루비 기초](https://edu.goorm.io/lecture/2011/%ED%95%9C-%EB%88%88%EC%97%90-%EB%81%9D%EB%82%B4%EB%8A%94-%EB%A3%A8%EB%B9%84-%EA%B8%B0%EC%B4%88)
@@ -173,18 +174,17 @@ end
 end
 ```
 
-<<<<<<< HEAD
-
 ### Error
 
 > ERROR: While executing gem ... (Gem::FilePermissionError)
 
-````bash
+```bash
 #~/.zshrc
 [[ -d ~/.rbenv  ]] && \
   export PATH=${HOME}/.rbenv/bin:${PATH} && \
   eval "$(rbenv init -)"
-=======
+```
+
 ### String
 
 str.upcase()
@@ -204,10 +204,7 @@ if 0
 else
   puts "0 is false"
 end
->>>>>>> ruby-lang/master
-````
-
-<<<<<<< HEAD
+```
 
 ### 링크 모음
 
@@ -231,7 +228,7 @@ t1 = Test.new  # => #<Test:0x34ab50>
 t2 = Test.new  # => #<Test:0x342784>
 t1 == t2       # => true
 
-# 이제 `identifier'를 protected로 만들지만 protected가 다른
+# 이제 'identifier'를 protected로 만들지만 protected가 다른
 # 객체에서의 참조를 허용하기 때문에 여전히 동작합니다.
 
 class Test
@@ -253,5 +250,3 @@ t1 == t2
 ????????????????
 
 ![image-20200809000817882](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghjt0yzw3vj30zm0r6wjl.jpg)
-
-> > > > > > > ruby-lang/master
